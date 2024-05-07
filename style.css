@@ -1,1 +1,83 @@
+@charset "utf-8";
+
+body{
+    background-color: #1a1b1f;
+    margin: 0;
+}
+/*ヘッダーの画像部分*/
+.Header_group{
+    position: relative;
+    margin-bottom: 2.5rem;
+}
+.Header_img{
+    width: 100%;
+    vertical-align: top;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.Icon_img{
+    width: 20%;
+    position: absolute;
+    top: 3rem;
+    left: 1rem;
+}
+
+/*プロフィール文*/
+p{
+    color: #bbbdc9;
+    margin: 0.0px;
+    margin-left: 0.5rem;
+}
+.My_name{
+    font-size: 1.6rem;
+}
+.My_idname{
+    font-size: 1.0rem;
+    margin-bottom: 1.0rem;
+    color: #8a8686;
+}
+.My_school{
+    font-size: 1.1rem;
+}
+
+/*タイムライン1つ目*/
+/*.Timeline_content1_in{
+    display: flex;
+}*/
+.Timeline_content1{
+    display: flex;
+}
+/*.Img_content1{
+    margin: 0px;
+    padding: 0%;
+}*/
+.Timeline_img{
+    width: 10%;
+    height: 10%;
+    margin-left: 0.5rem;
+}
+.Head_info1{
+    display: flex;
+}
+.In_my_name{
+    font-size: 0.8rem;
+}
+.In_my_idname{
+    font-size: 0.8rem;
+    color: #8a8686;
+}
+.date{
+    font-size: 0.8rem;
+    color: #8a8686;
+}
+.content1{
+    color: white;
+    /*margin-left: 0.1rem;*/
+}
+.content_img1{
+    width: 70%;
+    margin-left: 10px;
+    border-radius: 20px;
+}
 
