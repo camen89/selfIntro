@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(window).on('load', function () {
     let headerHeight = $('.Header_img').height();
     $('.Icon_img').css('top', headerHeight / 2 + 'px');
     $('.Header_group').css('margin-bottom', headerHeight / 2 + 'px');
