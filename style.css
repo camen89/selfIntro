@@ -41,6 +41,15 @@ p{
 .My_school{
     font-size: 1.1rem;
 }
+a{
+    color: gray;
+}
+.profile_bottom{
+    display: flex;
+}
+.insta_link{
+    text-align: center;
+}
 
 /*タイムライン1つ目*/
 /*.Timeline_content1_in{
@@ -81,4 +90,3 @@ p{
     margin-left: 10px;
     border-radius: 20px;
 }
-
